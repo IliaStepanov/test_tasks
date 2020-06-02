@@ -13,7 +13,6 @@ public class ArrayEntryCounter {
                 .boxed()
                 .collect(Collectors.toMap(Function.identity(), e -> 1, Integer::sum));
 
-
         return result.entrySet().stream()
                 .sorted(Map.Entry.comparingByValue())
                 .collect(Collectors.toMap(
