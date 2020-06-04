@@ -2,6 +2,7 @@ package main.java.task_3;
 
 public class App {
     public static void main(String[] args) {
+
         long i1 = 1234560;
         long i2 = 98797410;
 
